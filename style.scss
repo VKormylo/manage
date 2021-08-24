@@ -13,6 +13,12 @@ $grayish-blue: hsl(227, 12%, 61%);
 $light-gray: hsl(0, 0%, 98%);
 $white: #fff;
 
+// --------------------
+
+// --------------------
+// ------- MAIN -------
+// --------------------
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -49,6 +55,12 @@ body {
         background-position: top 65% left -550px;
     }
 }
+
+// --------------------
+
+// ------
+// COMMON
+// ------
 
 .container {
     max-width: 1440px;
@@ -101,6 +113,12 @@ body {
     display: block;
     opacity: 1;
 }
+
+// --------------------
+
+// --------------------------
+// --------- HEADER ---------
+// --------------------------
 
 .header {
     height: 90vh;
@@ -308,6 +326,8 @@ body {
         }
     }
 
+    // --------- MEDIA ---------
+
     @media (max-width: 1700px) {
         background-position: right -60px top -100px;
     }
@@ -414,6 +434,10 @@ body {
     }
 }
 
+// -------------------------
+// --------- ABOUT ---------
+// -------------------------
+
 .about {
     margin-top: 100px;
     padding: 0 20px;
@@ -453,6 +477,9 @@ body {
             margin-top: 40px;
         }
     }
+
+    // --------- MEDIA ---------
+
     @media (max-width: 1100px) {
         .about-content {
             width: 40%;
@@ -530,6 +557,10 @@ body {
     }
 }
 
+// --------------------------------
+// --------- TESTIMONIALS ---------
+// --------------------------------
+
 .testimonials {
     margin-top: 150px;
     &-title {
@@ -573,6 +604,8 @@ body {
         justify-content: center;
         margin-top: 50px;
     }
+
+    // --------- MEDIA ---------
 
     @media (max-width: 1240px) {
         .testimonials-items {
@@ -635,32 +668,6 @@ body {
         & &-btn {
             margin-top: 60px;
         }
-        // .slick-dots {
-        //     display: flex;
-        //     justify-content: center;
-
-        //     list-style-type: none;
-
-        //     li {
-        //         margin: 0 -2px;
-        //     }
-
-        //     button {
-        //         display: block;
-        //         width: 8px;
-        //         height: 8px;
-        //         padding: 0;
-        //         margin: 20px 0 0 0;
-
-        //         border: 1px solid $bright-red;
-        //         border-radius: 100%;
-
-        //         text-indent: -9999px;
-        //     }
-        //     li.slick-active button {
-        //         background-color: $bright-red;
-        //     }
-        // }
         .slick-dots li {
             margin: 0 -2px;
         }
@@ -679,6 +686,10 @@ body {
         }
     }
 }
+
+// -------------------------------
+// --------- GET-STARTED ---------
+// -------------------------------
 
 .get-started {
     background-color: $bright-red;
@@ -709,6 +720,9 @@ body {
             background-color: $white;
         }
     }
+
+    // --------- MEDIA ---------
+
     @media (max-width: 900px) {
         &__title {
             font-size: 28px;
@@ -735,6 +749,10 @@ body {
         }
     }
 }
+
+// --------------------------
+// --------- FOOTER ---------
+// --------------------------
 
 .footer {
     position: relative;
@@ -843,6 +861,9 @@ body {
             text-align: right;
         }
     }
+
+    // --------- MEDIA ---------
+
     @media (max-width: 1100px) {
         &-menu {
             &__item {
